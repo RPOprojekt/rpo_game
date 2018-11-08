@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public VirtualJoystick joystick;
+    public VirtualJoystick joystick; //dobi class joystick
 
    // Trap_player trap;
 
     public float speed = 150.0f;
     private Rigidbody2D rigid;
     private Quaternion targetRotation;
+
+    Vector2 tempDirection = Vector2.zero;
 
     public Animator animator;
 
@@ -22,8 +24,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        var direction = joystick.InputDirection;
-        var angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
+        var direction = joystick.InputDirection; //dobi smer iz joysticka
+
+        if (direction == Vector2.zero)
+        {
+            direction = tempDirection;
+        }
+
+        tempDirection = direction;
+
+        var angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg; 
 
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.back);
         

@@ -1,2 +1,0 @@
-BGimage size 350x350
-JSimage size 180x180

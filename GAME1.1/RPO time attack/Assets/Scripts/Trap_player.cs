@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Trap_player : MonoBehaviour {
 
-    
+    public Animator animator;
+
     private PlayerMovement playerScript;
 
     Vector2 startPosition = Vector2.zero;
@@ -31,6 +32,7 @@ public class Trap_player : MonoBehaviour {
         {
             float temp = playerScript.speed;
             Debug.Log("You are slowed down for 5s");
+            animator.SetBool("Activated", true);
             playerScript.speed = playerScript.speed * 0.3f; //playerja upočasni
 
             StartCoroutine(Wait(temp)); //pocakaj 5s
@@ -40,6 +42,7 @@ public class Trap_player : MonoBehaviour {
     IEnumerator Wait(float temp)
     { 
         yield return new WaitForSeconds(5.0f);
+        animator.SetBool("Activated", false);
 
         playerScript.speed = temp;
         Debug.Log("Znova si hiter");
