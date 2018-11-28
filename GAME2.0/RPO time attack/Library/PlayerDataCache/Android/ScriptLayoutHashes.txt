@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Milan/Desktop/RPO_game/GAME1.6.1/Luce300.apk
+C:/Users/Milan/Desktop/RPO_game/GAME2.0/Luce300.apk
 SceneListBegin?
 Assets/Menu.unity
 Assets/Game.unity
