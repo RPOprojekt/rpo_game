@@ -75,16 +75,16 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\Tiled2UnityMenuItems.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>E:/Uporabniki/Blaz/Dokumenti/GitHubRepositories/www/GAME2.0/RPO time attack/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>E:/Uporabniki/Blaz/Dokumenti/GitHubRepositories/www/GAME2.1/RPO time attack/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/Uporabniki/Blaz/Dokumenti/GitHubRepositories/www/GAME2.0/RPO time attack/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/Uporabniki/Blaz/Dokumenti/GitHubRepositories/www/GAME2.1/RPO time attack/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/Uporabniki/Blaz/Dokumenti/GitHubRepositories/www/GAME2.0/RPO time attack/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/Uporabniki/Blaz/Dokumenti/GitHubRepositories/www/GAME2.1/RPO time attack/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Uporabniki/Blaz/Dokumenti/GitHubRepositories/www/GAME2.0/RPO time attack/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/Uporabniki/Blaz/Dokumenti/GitHubRepositories/www/GAME2.1/RPO time attack/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Programske datoteke/Unity 3D/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
