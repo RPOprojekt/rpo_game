@@ -1,0 +1,36 @@
+PlayerManeger:
+-èe pri orožju ni metkov napiše da ni metkov in ne zamenja orožja ampak ti pusti primarno orožje
+-èe so pri orožju metki pa ti ga menja
+-ClickChangeGunButton() ... ko kliknes na gumb se menja orozje
+probleme mi je povzroèalo to, da so pri menjavi orožja izginili metki saj se je skripta za stMetkov zagnala na novo ko sem dal orožje na setActive
+
+-naredil sem exit gumb ki te vrže nazaj v meni
+-naredil sem še da se denar shranjuje v PlayerPrefs("money")
+-v PlayerPrefs shranjuje tudi metke za posamezno orožje
+-po konèani igri se metki nastavijo na 0 .......... tudi predhodno kupljeni metki -> potrebno je kupit tolko metkov kot mislis da jih bos potreboval
+
+POTREBNO NAREDIT: da za streljanje ne zaznava klika na ChangeGunBtn, treba je tudi popravit za Joystick
+
+SHOP:
+-naredil sem novo sceno za shop
+-izgled
+SwapChar:
+-ob pritisku na levi ali desni gumb se menjujejo characterji enkrat v eno in drugiè v drugo smer
+-izpiše se tudi cena
+SwapGun:
+-menjava orozja v trgovini
+-2 gumba za nakup 5 ali 10 metkov za doloèeno orožje
+-2 ceni za obe možnosti
+ShopControll in Shop maneger:
+-shranjevanje metkov v PlayerPrefs("money")
+-exit gumb ki te vrže v meni
+-ce kupis metke ti odsteje denar in pristeje stevilo metkov. Zato imas naslednjic ob zacetku vecje stevilo metkov
+-ce imas premalo denarja orozja ne gre kupiti
+
+-ce kupis characterja ti odsteje denar
+-ce izberes charactera ----------------> SE NE DELA
+
+
+PROBLEM-potrebnoPopravit: Metki pri puski2 morajo bit nastavljeni na 1 da dobi metke kupljene v trgovini,
+	 èe so metki nastavljeni na 0 pa metke kupljene v trgovini upošteva šele ko odpremo chest in se prištejejo k pobranim metkom
+PROBLEM-potrebnoPopravit: Trgovina na telefonu zgleda pune grdo... ne vidi se backgrounda in gumbi, napisi... se pomanjšajo ter niso na pravih mestih
