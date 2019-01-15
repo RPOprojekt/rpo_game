@@ -1,7 +1,0 @@
-TO LAHKO NAPIŠEŠ V POROÈILO :D ... PAC DA TI JE VLKO CASA VZELO
-
--timer meri èas in èe je èas ob koncu igre manjši kot prejšnji ga shrani v Player.prefs()
--PROBLEM: na zaèetku je timer nastavljen na niè zato bo novi èas vedno veèji kot je zaèetni èas
-
--naredit smo mogli da ob prvem zagonu igre v vsakem primeru napiše tisti èas ki ga je igralec dosegel !!!
--REŠITEV: to smo rešili s pomoèjo Player.prefs(), ki šteje število iger in ob prvi igri avtomatsko nastavi èas igranja, nasledniè pa èase primerja
